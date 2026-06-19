@@ -1,0 +1,46 @@
+st.image("images/hero_image.jpg", use_container_width=True)
+
+st.markdown("""
+<h1 style='text-align:center;color:#1b5e20;'>
+🌱 Smart Agriculture Advisory System
+</h1>
+
+<h3 style='text-align:center;color:#388e3c;'>
+AI-Powered Weather Analytics and Irrigation Recommendation Platform
+</h3>
+""", unsafe_allow_html=True)
+
+st.markdown("---")
+
+col1,col2,col3=st.columns(3)
+
+with col1:
+    st.success("💧 Irrigation Recommendation")
+
+with col2:
+    st.warning("🔥 Heat Stress Analysis")
+
+with col3:
+    st.info("☀️ Evaporation Risk Assessment")
+
+st.markdown("---")
+
+st.subheader("🌾 About the Project")
+
+st.write("""
+The Smart Agriculture Advisory System is a web-based agricultural decision support platform developed using weather station data collected during internship at SBI ARISA Lab.
+
+The system provides intelligent recommendations for irrigation, water requirements, heat stress analysis and weather analytics.
+""")
+
+st.markdown("---")
+
+st.subheader("👩‍💻 Developed By")
+
+st.write("""
+**Manasa Gangam**
+
+B.Tech Computer Science and Engineering (CSE)
+
+Internship: SBI ARISA Lab
+""")
