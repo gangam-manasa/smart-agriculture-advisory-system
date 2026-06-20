@@ -29,3 +29,4 @@ try:
 
 except Exception as e:
     st.error("Unable to load reviews.")
+    st.exception(e)
