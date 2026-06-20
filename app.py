@@ -15,6 +15,7 @@ pg = st.navigation([
     st.Page("pages/DatasetAnalysis.py", title="Dataset Analysis", icon="📂"),
     st.Page("pages/ManualPrediction.py", title="Manual Prediction", icon="✍️"),
     st.Page("pages/About.py", title="About Project", icon="ℹ️"),
+    st.Page("pages/Feedback.py", title="Feedback", icon="📝"),
 ])
 
 pg.run()
