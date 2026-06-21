@@ -11,7 +11,7 @@ from reportlab.platypus import (
     SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, Image
 )
 
-st.title("📂 Weather Station Data Analysis")
+st.title("Weather Station Data Analysis")
 
 uploaded_file = st.file_uploader(
     "Upload Excel File",
